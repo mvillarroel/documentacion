@@ -13,3 +13,10 @@ Si en la agenda aparece un gif "cargando" y no permite visualizar horarios ni ci
   * **me_hour**: Fin jornada mañana, desde las 00:00 a las 14:00
   * **ai_hour**: Inicio jornada tarde, desde las 14:00 a las 23:55
   * **ae_hour**: Fin jornada tarde, desde las 14:00 a las 23:55
+_____________________
+**Síntoma 3**: 
+Si en la "Traza / Asignados" no carga la tabla de datos, debes revisar que el servicio BioPacs esté habilitado.
+_____________________
+**Síntoma 4**:
+Si al usuario no le cargan las agendas en el menú "Agendas",
+1. Revisar en el menú "Salas / Salas de usuario" y asignar las salas que no visualiza.
