@@ -28,3 +28,12 @@ __________________________________________________________
 > Nota: El puerto 10000 es referencial.
 
 * 3.- En la web debes abrir el pacs con la siguiente dirección: **“http://localhost:10000/newbiopacsOLD/index.php”**
+__________________________________________________________
+1. **Puente para conexión a Base de datos del sistema BioPacs de HRT por consola**
+* En la consola debes conectarte al sistema BioRis escribiendo el siguiente comando: *__ssh -N  -o ProxyCommand="ssh  toth@biopacs.hospitaldetalca.cl -W %h:%p" -L 30000:localhost:5432 toth@10.3.205.70__*
+> Nota: El puerto 30000 es referencial.
+
+2. Para conectarte a la base de datos, debes ingresar los siguientes datos:
+* **Host: localhost**
+* **Port: 30000**
+> Nota: El puerto 30000 es referencial.
